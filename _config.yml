@@ -1,6 +1,12 @@
 title: "Ashis Kar"
 email: "mail@ashiskar.me"
-description: "Software Engineer — backend systems, distributed architecture, platform engineering"
+description: "Architecting the quiet machinery of the web — building invisible, large-scale systems that millions rely on"
 baseurl: "" # leave empty for user/organization site
 url: "https://ashiskar.me"
 theme: minima
+
+# Permalink structure for blog posts
+permalink: /blog/:year/:month/:day/:title/
+
+# Build settings
+markdown: kramdown
